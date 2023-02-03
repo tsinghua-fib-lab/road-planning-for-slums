@@ -1,0 +1,43 @@
+# reward
+reward_specs:
+  dis_weight: 0.5
+  cost_weight: 0.5
+  build_ration: 0.5
+
+# agent
+agent_specs:
+  batch_stage: false
+
+gamma: 0.9
+tau: 0.0
+state_encoder_specs:
+  state_encoder_hidden_size: [16, 4]
+  gcn_node_dim: 16
+  num_gcn_layers: 2
+  num_edge_fc_layers: 1
+  max_num_nodes: 1000
+  max_num_edges: 3000
+  num_attention_heads: 1
+policy_specs:
+  policy_land_use_head_hidden_size: [32, 1]
+  policy_road_head_hidden_size: [32, 1]
+value_specs:
+  value_head_hidden_size: [32, 32, 1]
+lr: 4.0e-4
+weightdecay: 0.0
+eps: 1.0e-5
+
+value_pred_coef: 0.5
+entropy_coef: 0.01
+clip_epsilon: 0.2
+
+
+max_num_iterations: 100
+#num_episodes_per_iteration: 500
+num_episodes_per_iteration: 1200
+#max_sequence_length: 100
+max_sequence_length: 33
+num_optim_epoch: 4
+#mini_batch_size: 1024
+mini_batch_size: 1024
+save_model_interval: 1
