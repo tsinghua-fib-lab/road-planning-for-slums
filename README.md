@@ -11,7 +11,7 @@ Yu Zheng, Hongyuan Su, Jingtao Ding, Depeng Jin, Yong Li, **Road Planning for Sl
 # Installation 
 
 ### Environment
-* **Tested OS: **Linux
+* Tested OS: Linux
 * Python >= 3.8
 * PyTorch == 1.10.1
 * Tensorboard
@@ -37,3 +37,6 @@ You can replace `demo` to train other cfgs.
 The results are saved in `train_data/slum_name/cfg/seed`
 
 
+# License
+
+The software in this repo is freely available under MIT license. Please see the [license](LICENSE) for further details.
