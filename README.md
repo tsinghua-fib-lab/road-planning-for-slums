@@ -44,6 +44,15 @@ We show the episodic reward (normalized to 0-1) after each iteration of training
 |--|--|
 | ![Loading convergence curve](assets/iteration_reward_harare.png "Convergence curve on Harare, ZWE") | ![Loading convergence curve](assets/iteration_reward_capetown.png "Convergence curve on Cape Town, ZAF") |
 
+# Results
+- For accessibility, it is desired to achieve universal connectivity as early as possible, thus we calculate the **n**umber of **r**oad segments (**NR**) consumed to achieve universal connectivity.
+- For travel distance, we compute the **a**verage **d**istance (**AD**) between any pair of places in the slum over the road network.
+- We define the construction cost of each road segment as its length, and calculate the **s**um of **c**osts (**SC**) of all planned roads.
+
+It is worth noting that all the metrics are **the lower the better**.
+
+![Loading Overall Performance](assets/overall_results.png "Overall Results")
+
 # License
 
 The software in this repo is freely available under MIT license. Please see the [license](LICENSE) for further details.
