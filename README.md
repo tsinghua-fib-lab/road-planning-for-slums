@@ -36,6 +36,16 @@ You can replace `demo` to train other cfgs.
 
 The results are saved in `train_data/slum_name/cfg/seed`
 
+## Convergence
+Our models, both DRL-GNN and DRL-MLP, usually converges within 20 iterations, which takes about 2 hours on a single server with an Nvidia
+GeForce 2080Ti GPU.
+We show the episodic reward (normalized to 0-1) after each iteration of training in the following figures.
+
+Harare, ZWE:
+![Loading convergence curve](assets/iteration_reward_harare.png "Convergence curve on Harare, ZWE")
+
+Cape Town, ZAF:
+![Loading convergence curve](assets/iteration_reward_capetown.png "Convergence curve on Cape Town, ZAF")
 
 # License
 
