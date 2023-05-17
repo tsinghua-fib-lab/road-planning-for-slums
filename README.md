@@ -2,10 +2,12 @@
 ![Loading Model Overview](assets/overview.png "Model Overview")
 ---
 
-This repo contains the codes and data for our submitted KDD'23 ADS track paper under review:
+In this project, we echo the *AI for Good* initiative and propose a deep reinforcement learning approach to perform road planning for slums, a critical issue in urban sustainability.
+Our proposed model can generate road plans that significantly improve the connectivity of slums at minimal costs.
+Experiments on slums from different countries demonstrates a relative improvement of over 14.3% in accessibility compared with existing baselines.
 
-Yu Zheng, Hongyuan Su, Jingtao Ding, Depeng Jin, Yong Li, **Road Planning for Slums via Deep Reinforcement Learning**, in submission to KDD 2023.
-
+This project was initially described in the full paper [Road Planning for Slums via Deep Reinforcement Learning](paper/KDD2023_road_planning_for_slums.pdf) at KDD 2023 in Long Beach, CA. 
+Contributors to this project are from the [Future Intelligence laB (FIB)](https://fi.ee.tsinghua.edu.cn/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 
 
 # Installation 
