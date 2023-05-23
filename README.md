@@ -6,7 +6,7 @@ In this project, we echo the *AI for Good* initiative and propose a deep reinfor
 Our proposed model can generate road plans that significantly improve the connectivity of slums at minimal costs.
 Experiments on slums from different countries demonstrates a relative improvement of over 14.3% in accessibility compared with existing baselines.
 
-This project was initially described in the full paper [Road Planning for Slums via Deep Reinforcement Learning](paper/KDD2023_road_planning_for_slums.pdf) at KDD 2023 in Long Beach, CA. 
+This project was initially described in the full paper [Road Planning for Slums via Deep Reinforcement Learning](https://arxiv.org/abs/2305.13060) at [KDD 2023](https://kdd.org/kdd2023/) in Long Beach, CA. 
 Contributors to this project are from the [Future Intelligence laB (FIB)](https://fi.ee.tsinghua.edu.cn/) at [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 
 
