@@ -55,6 +55,18 @@ It is worth noting that all the metrics are **the lower the better**.
 
 ![Loading Overall Performance](assets/overall_results.png "Overall Results")
 
+## Citation
+If you use this code in your project, please consider citing the following paper:
+```bibtex
+@inproceedings{zheng2023road,
+    author = {Zheng, Yu and Su, Hongyuan and Ding, Jingtao and Jin, Depeng and Li, Yong},
+    title = {Road Planning for Slums via Deep Reinforcement Learning},
+    year = {2023},
+    booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+    pages = {5695–5706},
+}
+```
+
 ## License
 
 The software in this repo is freely available under MIT license. Please see the [license](LICENSE) for further details.
